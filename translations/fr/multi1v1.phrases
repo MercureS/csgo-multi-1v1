@@ -2,7 +2,7 @@
 {
 	"NoOpponent"
 	{
-		"fr"			"Tu es dans l'arène {GREEN}{1} {NORMAL}sans {DARK_RED}adversaire."
+		"fr"			"Tu es dans l'arène {GREEN}{1} {DARK_RED}sans adversaire."
 	}
 	"FacingOff"
 	{
@@ -18,14 +18,30 @@
 	}
 	"WonMessage"
 	{
-		"fr"			"{GREEN}Tu {NORMAL}({GREEN}{1}, {LIGHT_GREEN}+{2}{NORMAL} points) as battu {PURPLE}{3} {NORMAL}({RED}{4}, {DARK_RED}-{5}{NORMAL} points)."
+		"fr"			"{PURPLE}Tu {NORMAL}({GREEN}{1}, {LIGHT_GREEN}+{2}{NORMAL} points) as battu {PURPLE}{3} {NORMAL}({PURPLE}{4}, {DARK_RED}-{5}{NORMAL} points)."
 	}
 	"LossMessage"
 	{
-		"fr"			"{GREEN}Tu {NORMAL}({GREEN}{1}, {LIGHT_RED}-{2}{NORMAL} points) {NORMAL}à perdu contre {PURPLE}{3} {NORMAL}({RED}{4}, {LIGHT_GREEN}+{5}{NORMAL} points)."
+		"fr"			"{PURPLE}Tu {NORMAL}({GREEN}{1}, {LIGHT_RED}-{2}{NORMAL} points) {NORMAL}à perdu contre {PURPLE}{3} {NORMAL}({PURPLE}{4}, {LIGHT_GREEN}+{5}{NORMAL} points)."
 	}
 	"TimeRanOut"
 	{
-		"fr"			"{GREEN}Tu {NORMAL}({GREEN}{1}, {LIGHT_RED}-{2}{NORMAL} points) laisser le temps s'écouler."
+		"fr"			"{PURPLE}Tu {NORMAL}({GREEN}{1}, {LIGHT_RED}-{2}{NORMAL} points) laisser le temps s'écouler."
+	}
+	"MostWins"
+	{
+		"fr"		"{GREEN}{1} {NORMAL}had the most wins {PURPLE}({2}) {NORMAL}in arena 1 this map."
+	}
+	"OpponentLeft"
+	{
+		"fr"		"{GREEN}Ton adversaire à quitté."
+	}
+	"HideStats"
+	{
+		"fr"		"Les statistiques sont maintenant désactivées."
+	}
+	"ShowStats"
+	{
+		"fr"		"Les statistiques sont maintenant activées."
 	}
 }
